@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musik</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="shortcut icon"
+      href="https://t3.ftcdn.net/jpg/04/79/81/76/360_F_479817672_BpTyGX9qAl3rs9mHqvQUsyWXTJrkLUII.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="min-h-screen w-full">
+      <!-- Desktop -->
+      <!-- Desktop Menu  -->
+      <nav
+        class="sticky-header sticky top-0 flex h-30 w-full items-center justify-between gap-2.5 px-10 lg:px-20 xl:px-30 2xl:px-40"
+      >
+        <a href="#"><img src="./assets/images/logo.svg" alt="logo-musik" aria-hidden="true" /></a>
+        <ul class="-right-full hidden items-center justify-between gap-5 md:flex xl:gap-10">
+          <li class="cta">
+            <a href="#" class="hover-underline-animation text-sm font-semibold uppercase text-white">Home</a>
+            <span></span>
+          </li>
+          <li class="cta">
+            <a href="#" class="hover-underline-animation text-sm font-semibold uppercase text-white">Speakers</a>
+            <span></span>
+          </li>
+          <li class="cta">
+            <a href="#" class="hover-underline-animation text-sm font-semibold uppercase text-white">Schedule</a>
+            <span></span>
+          </li>
+          <li class="cta">
+            <a href="#" class="hover-underline-animation text-sm font-semibold uppercase text-white">Contact Us</a>
+            <span></span>
+          </li>
+          <a class="btn cursor-pointer bg-white text-musik-blue lg:ml-2.5">Get Tickets</a>
+        </ul>
+        <!--  Mobile  -->
+        <!--  Mobile Icon -->
+        <label for="burgerMenu" class="burger md:!hidden">
+          <input id="burgerMenu" type="checkbox" checked />
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </nav>
+      <!-- Mobile Menu -->
+      <nav
+        id="navbar-menu"
+        class="bg-effect fixed z-30 flex h-screen w-full flex-col items-center justify-start gap-10 bg-musik-light-purple pt-20 text-center transition-all duration-300 md:!hidden"
+      >
+        <a href="#" class="text-4xl font-semibold uppercase text-white">Home</a>
+        <a href="#" class="text-4xl font-semibold uppercase text-white">Speakers</a>
+        <a href="#" class="text-4xl font-semibold uppercase text-white">Schedule</a>
+        <a href="#" class="text-4xl font-semibold uppercase text-white">Contact Us</a>
+      </nav>
+      <!-- Header Tittle -->
+      <section
+        class="my-10 flex w-full flex-col items-center justify-center gap-10 px-10 lg:my-20 lg:mx-auto lg:max-w-[1000px]"
+      >
+        <h3 class="select-none text-center text-5xl font-bold text-white lg:text-heading">
+          The Best experience of <span class="text-musik-light-red">music</span> in 2021
+        </h3>
+        <p class="raleway text-center text-base text-white lg:text-2xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ligula placerat, eleifend ex non,
+          vehicula libero. Suspendisse eget tellus lectus.
+        </p>
+        <div class="flex flex-col items-center gap-5 lg:flex-row lg:gap-10">
+          <a class="btn cursor-pointer bg-musik-orange text-white">Get Started</a>
+          <button type="menu" data-time class="flex items-center gap-2.5 rounded-lg font-extrabold text-white">
+            <img src="./assets/images/play-button.svg" aria-hidden="true" /> <span></span>
+            <span></span>
+            <span></span>
+            <span></span> Watch Video
+          </button>
+        </div>
+      </section>
+      <!-- Countdown Section -->
+      <section
+        id="time-section"
+        class="flex w-full flex-col items-center justify-center py-2.5 text-center text-8xl font-bold text-white text-opacity-0 lg:flex-row lg:gap-15"
+      >
+        <span id="days"></span>
+        <span id="hours"></span>
+        <span id="minutes"></span>
+        <span id="seconds"></span>
+      </section>
+    </header>
+  </body>
+  <script src="./script.js"></script>
+</html>
