@@ -1,4 +1,4 @@
-<h1 >Musik Website</h1>
+<h1>🎵 Musik Website</h1>
 
 <p>Welcome to the "Musik" repository. This is a coded version of a previously designed interface design. This is a landing page design. <a href="https://www.figma.com/file/H10hHf84jVMuEVV9FBwmgj/Musik-Concert-Landing-Page-(Community)?node-id=905%3A165&t=wSd297aMcAdXBWfh-1" target="_blank">Figma project.
 </a></p>
